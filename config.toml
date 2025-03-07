@@ -1,3 +1,34 @@
-baseURL = 'http://example.org/'
+baseURL = "https://hoffmann-maximilian.net/"
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Maximilian Hoffmann'
+theme = 'hugo-digital-garden-theme'
+relativeURLs = true
+canonifyURLs = true
+
+[params]
+  name = "Maximilian Hoffmann"
+  description = "Personal website of Maximilian Hoffmann"
+  initials = "MH"
+  googleAnalytics = ""
+
+  [[params.social]]
+    name = "Github"
+    link = "https://github.com/Oszimilian"
+    icon = "fab fa-github"
+
+  [[params.social]]
+    name = "LinkedIn"
+    link = "https://de.linkedin.com/in/maximilian-hoffmann-60050620a"
+    icon = "fab fa-linkedin-in"
+
+[menu]
+  [[menu.main]]
+    name = "ABOUT"
+    url = "/myself/"
+    weight = 2
+
+  [[menu.main]]
+    name = "PROJECTS"
+    url = "/projects/"
+    weight = 2
+
